@@ -4,7 +4,7 @@ public:
         int i, j, num=1, startx=0, starty=0, offset=1;
         vector<vector<int>> mat(n, vector<int>(n));
 
-        while( num < n*n ){
+        while( num < (n*n) ){
             cout << num << endl;
             //用左閉右開 -> 只處理第一個格子不處理最後一格
             //最上面 由左到右 變量是j，以最上面一行為例offset就是1，最上面第二行為例offset就是2
