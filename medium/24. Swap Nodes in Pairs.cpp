@@ -16,7 +16,7 @@ public:
         ListNode* curr = dummyNode;
         ListNode* tmp1 = new ListNode();
         ListNode* tmp2 = new ListNode();
-        //當curr的時候去處理1、2，當curr=2時去處理3、4，當curr=4時去處理5、6，...
+        //當curr的時候去處理1、2，當curr=2時去處理3、4，當curr=4時去處理5、6，
         //所以當Node數是偶數時若curr->next是NULL則終止
         //所以當Node數是奇數時若curr->next->next是NULL則終止
         while(curr->next != NULL && curr->next->next != NULL){
