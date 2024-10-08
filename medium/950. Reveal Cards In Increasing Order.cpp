@@ -1,9 +1,10 @@
-//把整個步驟反著做
+//嚙踝蕭嚙諉步嚙皚嚙誕著堆蕭
 
 class Solution {
 public:
     vector<int> deckRevealedIncreasing(vector<int>& deck) {
         int i;
+        
         sort(deck.begin(), deck.end(), greater<int>());
         deque<int> dq;
 
