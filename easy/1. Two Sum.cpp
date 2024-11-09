@@ -6,6 +6,7 @@ public:
 
         for(i = 0; i < nums.size(); i++){
             auto iter = num_set.find(target - nums[i]);
+            
             if( iter != num_set.end())
                 return {iter->second, i};
             else
