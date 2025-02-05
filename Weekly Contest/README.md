@@ -1,1 +1,2 @@
-weekly contest solution
+# Weekly Contest solution
+Weekly: https://leetcode.com/contest/  
