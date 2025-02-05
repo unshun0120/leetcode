@@ -1,3 +1,8 @@
 # Leetcode-solution
-LeetCode ProblemSet:  https://leetcode.com/problemset/  
-LeetCode 75: https://leetcode.com/studyplan/leetcode-75/  
+
+## LeetCode ProblemSet     
+Problem Link: https://leetcode.com/problemset/  
+
+## Leetcode 75
+Problem Link: https://leetcode.com/studyplan/leetcode-75/  
+Hackmd: https://hackmd.io/@unshun0120/HkaG8l-t1g  
