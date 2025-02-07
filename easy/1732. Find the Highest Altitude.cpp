@@ -14,6 +14,7 @@ public:
 };
 
 // Another Solution with same idea
+// 這是我第二次寫的, 好像變得沒那麼簡潔哈哈
 
 /*class Solution {
 public:
