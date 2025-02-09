@@ -12,8 +12,6 @@ public:
         return max;
     }
 };
-<<<<<<< HEAD
-=======
 
 // Another Solution with same idea
 // 這是我第二次寫的, 好像變得沒那麼簡潔哈哈
@@ -35,4 +33,3 @@ public:
 
     }
 };*/
->>>>>>> cbc2563dc0d2012b4349b16b0241cd3467642ae6

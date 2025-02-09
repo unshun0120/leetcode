@@ -1,5 +1,6 @@
 class Solution {
 public:
+<<<<<<< HEAD
     void wordReverse(string& s, int left, int right){
         int i, j;
 
@@ -56,5 +57,26 @@ public:
         
 
         return s;
+=======
+    string reverseWords(string s) {
+        string temp="", ans="";
+        for(int i = s.length()-1; i >= 0; i--){
+            if(s[i] == ' ' && temp != ""){
+                reverse(temp.begin(), temp.end());
+                ans += temp + " ";
+                temp = "";
+            }
+            else if(s[i] != ' '){
+                temp += s[i];
+            }
+        }
+        reverse(temp.begin(), temp.end());
+        ans += temp;
+        // remove last charactor if exist a space
+        if(ans[ans.length()-1] == ' ')
+            ans.pop_back();
+
+        return ans;
+>>>>>>> cbc2563dc0d2012b4349b16b0241cd3467642ae6
     }
 };
