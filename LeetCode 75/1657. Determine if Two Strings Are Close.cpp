@@ -35,7 +35,7 @@ class Solution {
                     break;
                 }
             }
-            cout<<"---"<<endl;
+            
             sort(word2.begin(), word2.end());
             for(i = 0; i < word2.length(); i++){
                 for(j = i+1; j < word2.length(); j++){
