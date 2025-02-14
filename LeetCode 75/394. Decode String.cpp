@@ -3,7 +3,7 @@ class Solution {
         string decodeString(string s) {
             string decode="", word="", number="";
             stack<char> symbol;
-            int repeat=0, count=0;
+            int repeat=0;
             
             for(int i = 0; i < s.length(); i++){
                 if(s[i] == ']'){
